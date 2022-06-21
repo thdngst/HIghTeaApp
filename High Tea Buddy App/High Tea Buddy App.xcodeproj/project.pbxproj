@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51A8787E248D25C800AFEF5C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A8787D248D25C800AFEF5C /* User.swift */; };
+		96776776248CCD1900ACCBEE /* Tea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96776775248CCD1900ACCBEE /* Tea.swift */; };
+		96776778248E173800ACCBEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96776777248E173800ACCBEE /* Main.storyboard */; };
+		9677677C248E418300ACCBEE /* TeaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677677B248E418300ACCBEE /* TeaCollectionViewCell.swift */; };
+		9689D39B2480CD8100064E6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9689D39A2480CD8100064E6D /* AppDelegate.swift */; };
+		9689D39D2480CD8100064E6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9689D39C2480CD8100064E6D /* SceneDelegate.swift */; };
+		9689D39F2480CD8100064E6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9689D39E2480CD8100064E6D /* ViewController.swift */; };
+		9689D3A42480CD8200064E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9689D3A32480CD8200064E6D /* Assets.xcassets */; };
+		9689D3A72480CD8200064E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9689D3A52480CD8200064E6D /* LaunchScreen.storyboard */; };
+		9689D3B22480CD8200064E6D /* High_Tea_Buddy_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9689D3B12480CD8200064E6D /* High_Tea_Buddy_AppTests.swift */; };
+		9689D3BD2480CD8300064E6D /* High_Tea_Buddy_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9689D3BC2480CD8300064E6D /* High_Tea_Buddy_AppUITests.swift */; };
+		B3CD6B83248FC27200DC8A80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CD6B82248FC27200DC8A80 /* HomeViewController.swift */; };
+		B3CD6B85248FC3D300DC8A80 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CD6B84248FC3D300DC8A80 /* UIView+Extension.swift */; };
+		B3CD6B87248FC60200DC8A80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CD6B86248FC60200DC8A80 /* Constants.swift */; };
+		B3CDE1662487CA6D004932AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDE1652487CA6D004932AB /* LoginViewController.swift */; };
+		B3CDE1682487CACD004932AB /* MoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDE1672487CACD004932AB /* MoodViewController.swift */; };
+		B3CDE16A2487CB31004932AB /* TeaMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDE1692487CB31004932AB /* TeaMenuViewController.swift */; };
+		B3CDE16C2487CE9A004932AB /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CDE16B2487CE9A004932AB /* SignupViewController.swift */; };
+		E2D5FF25248B3B00003E8159 /* TeaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D5FF24248B3B00003E8159 /* TeaDetailViewController.swift */; };
+		E2D5FF27248CC3DB003E8159 /* SkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D5FF26248CC3DB003E8159 /* SkipViewController.swift */; };
+		E2D5FF29248CD9AA003E8159 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D5FF28248CD9AA003E8159 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9689D3AE2480CD8200064E6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9689D38F2480CD8100064E6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9689D3962480CD8100064E6D;
+			remoteInfo = "High Tea Buddy App";
+		};
+		9689D3B92480CD8200064E6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9689D38F2480CD8100064E6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9689D3962480CD8100064E6D;
+			remoteInfo = "High Tea Buddy App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51A8787D248D25C800AFEF5C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		96776775248CCD1900ACCBEE /* Tea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tea.swift; sourceTree = "<group>"; };
+		96776777248E173800ACCBEE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9677677B248E418300ACCBEE /* TeaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaCollectionViewCell.swift; sourceTree = "<group>"; };
+		9689D3972480CD8100064E6D /* High Tea Buddy App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "High Tea Buddy App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9689D39A2480CD8100064E6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9689D39C2480CD8100064E6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9689D39E2480CD8100064E6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9689D3A32480CD8200064E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9689D3A62480CD8200064E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9689D3A82480CD8200064E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9689D3AD2480CD8200064E6D /* High Tea Buddy AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "High Tea Buddy AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9689D3B12480CD8200064E6D /* High_Tea_Buddy_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = High_Tea_Buddy_AppTests.swift; sourceTree = "<group>"; };
+		9689D3B32480CD8200064E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9689D3B82480CD8200064E6D /* High Tea Buddy AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "High Tea Buddy AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9689D3BC2480CD8300064E6D /* High_Tea_Buddy_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = High_Tea_Buddy_AppUITests.swift; sourceTree = "<group>"; };
+		9689D3BE2480CD8300064E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CD6B82248FC27200DC8A80 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B3CD6B84248FC3D300DC8A80 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B3CD6B86248FC60200DC8A80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B3CDE1652487CA6D004932AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B3CDE1672487CACD004932AB /* MoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodViewController.swift; sourceTree = "<group>"; };
+		B3CDE1692487CB31004932AB /* TeaMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaMenuViewController.swift; sourceTree = "<group>"; };
+		B3CDE16B2487CE9A004932AB /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		E2D5FF24248B3B00003E8159 /* TeaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaDetailViewController.swift; sourceTree = "<group>"; };
+		E2D5FF26248CC3DB003E8159 /* SkipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipViewController.swift; sourceTree = "<group>"; };
+		E2D5FF28248CD9AA003E8159 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9689D3942480CD8100064E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9689D3AA2480CD8200064E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9689D3B52480CD8200064E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9689D38E2480CD8100064E6D = {
+			isa = PBXGroup;
+			children = (
+				9689D3992480CD8100064E6D /* High Tea Buddy App */,
+				9689D3B02480CD8200064E6D /* High Tea Buddy AppTests */,
+				9689D3BB2480CD8200064E6D /* High Tea Buddy AppUITests */,
+				9689D3982480CD8100064E6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9689D3982480CD8100064E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9689D3972480CD8100064E6D /* High Tea Buddy App.app */,
+				9689D3AD2480CD8200064E6D /* High Tea Buddy AppTests.xctest */,
+				9689D3B82480CD8200064E6D /* High Tea Buddy AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9689D3992480CD8100064E6D /* High Tea Buddy App */ = {
+			isa = PBXGroup;
+			children = (
+				96776777248E173800ACCBEE /* Main.storyboard */,
+				9677677B248E418300ACCBEE /* TeaCollectionViewCell.swift */,
+				B3CD6B82248FC27200DC8A80 /* HomeViewController.swift */,
+				9689D39A2480CD8100064E6D /* AppDelegate.swift */,
+				9689D39C2480CD8100064E6D /* SceneDelegate.swift */,
+				9689D39E2480CD8100064E6D /* ViewController.swift */,
+				51A8787D248D25C800AFEF5C /* User.swift */,
+				E2D5FF28248CD9AA003E8159 /* SettingsViewController.swift */,
+				E2D5FF26248CC3DB003E8159 /* SkipViewController.swift */,
+				E2D5FF24248B3B00003E8159 /* TeaDetailViewController.swift */,
+				B3CDE16B2487CE9A004932AB /* SignupViewController.swift */,
+				B3CDE1692487CB31004932AB /* TeaMenuViewController.swift */,
+				B3CDE1672487CACD004932AB /* MoodViewController.swift */,
+				B3CDE1652487CA6D004932AB /* LoginViewController.swift */,
+				9689D3A32480CD8200064E6D /* Assets.xcassets */,
+				9689D3A52480CD8200064E6D /* LaunchScreen.storyboard */,
+				9689D3A82480CD8200064E6D /* Info.plist */,
+				96776775248CCD1900ACCBEE /* Tea.swift */,
+				B3CD6B84248FC3D300DC8A80 /* UIView+Extension.swift */,
+				B3CD6B86248FC60200DC8A80 /* Constants.swift */,
+			);
+			path = "High Tea Buddy App";
+			sourceTree = "<group>";
+		};
+		9689D3B02480CD8200064E6D /* High Tea Buddy AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9689D3B12480CD8200064E6D /* High_Tea_Buddy_AppTests.swift */,
+				9689D3B32480CD8200064E6D /* Info.plist */,
+			);
+			path = "High Tea Buddy AppTests";
+			sourceTree = "<group>";
+		};
+		9689D3BB2480CD8200064E6D /* High Tea Buddy AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9689D3BC2480CD8300064E6D /* High_Tea_Buddy_AppUITests.swift */,
+				9689D3BE2480CD8300064E6D /* Info.plist */,
+			);
+			path = "High Tea Buddy AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9689D3962480CD8100064E6D /* High Tea Buddy App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9689D3C12480CD8300064E6D /* Build configuration list for PBXNativeTarget "High Tea Buddy App" */;
+			buildPhases = (
+				9689D3932480CD8100064E6D /* Sources */,
+				9689D3942480CD8100064E6D /* Frameworks */,
+				9689D3952480CD8100064E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "High Tea Buddy App";
+			productName = "High Tea Buddy App";
+			productReference = 9689D3972480CD8100064E6D /* High Tea Buddy App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9689D3AC2480CD8200064E6D /* High Tea Buddy AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9689D3C42480CD8300064E6D /* Build configuration list for PBXNativeTarget "High Tea Buddy AppTests" */;
+			buildPhases = (
+				9689D3A92480CD8200064E6D /* Sources */,
+				9689D3AA2480CD8200064E6D /* Frameworks */,
+				9689D3AB2480CD8200064E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9689D3AF2480CD8200064E6D /* PBXTargetDependency */,
+			);
+			name = "High Tea Buddy AppTests";
+			productName = "High Tea Buddy AppTests";
+			productReference = 9689D3AD2480CD8200064E6D /* High Tea Buddy AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9689D3B72480CD8200064E6D /* High Tea Buddy AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9689D3C72480CD8300064E6D /* Build configuration list for PBXNativeTarget "High Tea Buddy AppUITests" */;
+			buildPhases = (
+				9689D3B42480CD8200064E6D /* Sources */,
+				9689D3B52480CD8200064E6D /* Frameworks */,
+				9689D3B62480CD8200064E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9689D3BA2480CD8200064E6D /* PBXTargetDependency */,
+			);
+			name = "High Tea Buddy AppUITests";
+			productName = "High Tea Buddy AppUITests";
+			productReference = 9689D3B82480CD8200064E6D /* High Tea Buddy AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9689D38F2480CD8100064E6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = "iOS Buddy";
+				TargetAttributes = {
+					9689D3962480CD8100064E6D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					9689D3AC2480CD8200064E6D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9689D3962480CD8100064E6D;
+					};
+					9689D3B72480CD8200064E6D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9689D3962480CD8100064E6D;
+					};
+				};
+			};
+			buildConfigurationList = 9689D3922480CD8100064E6D /* Build configuration list for PBXProject "High Tea Buddy App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9689D38E2480CD8100064E6D;
+			productRefGroup = 9689D3982480CD8100064E6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9689D3962480CD8100064E6D /* High Tea Buddy App */,
+				9689D3AC2480CD8200064E6D /* High Tea Buddy AppTests */,
+				9689D3B72480CD8200064E6D /* High Tea Buddy AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9689D3952480CD8100064E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96776778248E173800ACCBEE /* Main.storyboard in Resources */,
+				9689D3A72480CD8200064E6D /* LaunchScreen.storyboard in Resources */,
+				9689D3A42480CD8200064E6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9689D3AB2480CD8200064E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9689D3B62480CD8200064E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9689D3932480CD8100064E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CDE1682487CACD004932AB /* MoodViewController.swift in Sources */,
+				B3CDE16C2487CE9A004932AB /* SignupViewController.swift in Sources */,
+				B3CDE1662487CA6D004932AB /* LoginViewController.swift in Sources */,
+				B3CD6B85248FC3D300DC8A80 /* UIView+Extension.swift in Sources */,
+				E2D5FF29248CD9AA003E8159 /* SettingsViewController.swift in Sources */,
+				9677677C248E418300ACCBEE /* TeaCollectionViewCell.swift in Sources */,
+				B3CD6B83248FC27200DC8A80 /* HomeViewController.swift in Sources */,
+				B3CD6B87248FC60200DC8A80 /* Constants.swift in Sources */,
+				E2D5FF27248CC3DB003E8159 /* SkipViewController.swift in Sources */,
+				B3CDE16A2487CB31004932AB /* TeaMenuViewController.swift in Sources */,
+				E2D5FF25248B3B00003E8159 /* TeaDetailViewController.swift in Sources */,
+				9689D39F2480CD8100064E6D /* ViewController.swift in Sources */,
+				9689D39B2480CD8100064E6D /* AppDelegate.swift in Sources */,
+				96776776248CCD1900ACCBEE /* Tea.swift in Sources */,
+				51A8787E248D25C800AFEF5C /* User.swift in Sources */,
+				9689D39D2480CD8100064E6D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9689D3A92480CD8200064E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9689D3B22480CD8200064E6D /* High_Tea_Buddy_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9689D3B42480CD8200064E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9689D3BD2480CD8300064E6D /* High_Tea_Buddy_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9689D3AF2480CD8200064E6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9689D3962480CD8100064E6D /* High Tea Buddy App */;
+			targetProxy = 9689D3AE2480CD8200064E6D /* PBXContainerItemProxy */;
+		};
+		9689D3BA2480CD8200064E6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9689D3962480CD8100064E6D /* High Tea Buddy App */;
+			targetProxy = 9689D3B92480CD8200064E6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9689D3A52480CD8200064E6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9689D3A62480CD8200064E6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9689D3BF2480CD8300064E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9689D3C02480CD8300064E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9689D3C22480CD8300064E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YHV4Q6H4V;
+				INFOPLIST_FILE = "High Tea Buddy App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UTS.High-Tea-Buddy-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9689D3C32480CD8300064E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YHV4Q6H4V;
+				INFOPLIST_FILE = "High Tea Buddy App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UTS.High-Tea-Buddy-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9689D3C52480CD8300064E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HNR3Z2G2S;
+				INFOPLIST_FILE = "High Tea Buddy AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UTS.High-Tea-Buddy-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/High Tea Buddy App.app/High Tea Buddy App";
+			};
+			name = Debug;
+		};
+		9689D3C62480CD8300064E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HNR3Z2G2S;
+				INFOPLIST_FILE = "High Tea Buddy AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UTS.High-Tea-Buddy-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/High Tea Buddy App.app/High Tea Buddy App";
+			};
+			name = Release;
+		};
+		9689D3C82480CD8300064E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HNR3Z2G2S;
+				INFOPLIST_FILE = "High Tea Buddy AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UTS.High-Tea-Buddy-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "High Tea Buddy App";
+			};
+			name = Debug;
+		};
+		9689D3C92480CD8300064E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HNR3Z2G2S;
+				INFOPLIST_FILE = "High Tea Buddy AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UTS.High-Tea-Buddy-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "High Tea Buddy App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9689D3922480CD8100064E6D /* Build configuration list for PBXProject "High Tea Buddy App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9689D3BF2480CD8300064E6D /* Debug */,
+				9689D3C02480CD8300064E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9689D3C12480CD8300064E6D /* Build configuration list for PBXNativeTarget "High Tea Buddy App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9689D3C22480CD8300064E6D /* Debug */,
+				9689D3C32480CD8300064E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9689D3C42480CD8300064E6D /* Build configuration list for PBXNativeTarget "High Tea Buddy AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9689D3C52480CD8300064E6D /* Debug */,
+				9689D3C62480CD8300064E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9689D3C72480CD8300064E6D /* Build configuration list for PBXNativeTarget "High Tea Buddy AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9689D3C82480CD8300064E6D /* Debug */,
+				9689D3C92480CD8300064E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9689D38F2480CD8100064E6D /* Project object */;
+}
